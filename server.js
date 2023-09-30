@@ -3,7 +3,7 @@ const cors = require('cors');
 const fs = require('fs');
 const app = express();
 const port = 3000;
-
+// app.use('/home', express.static('public'));
 app.use(cors());
 
 
